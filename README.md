@@ -49,8 +49,10 @@ The project addresses household recycling friction caused by lack of sorting kno
 │   │   └── hardware_circuit_schematic.png # Esquema eléctrico y conexionado del Arduino
 │   ├── EcoBross_Bachelor_Thesis_UPF.pdf   # Memoria completa de la tesis
 │   └── ecobross_thesis_presentation.pptx # Presentación del proyecto
-├── Ecobross/                         # Proyecto principal de la aplicación y backend
+├── Ecobross/                         # Proyecto principal de la aplicación, backend y hardware
 │   ├── android/                      # Configuración y proyecto nativo Android
+│   ├── arduino/                      # Firmware del microcontrolador Arduino
+│   │   └── ecobross_bin.ino          # Lógica de control del cubo y recepción Bluetooth
 │   ├── assets/                       # Logotipos y recursos visuales de la aplicación
 │   ├── backend/                      # Servidor API REST en Node.js / Express
 │   │   ├── app.js                    # Endpoints y lógica de conexión a la BDD
