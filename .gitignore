@@ -4,7 +4,7 @@ hs_err_pid*
 replay_pid*
 
 # Node.js
-backend/node_modules/
+**/node_modules/
 
 # Flutter / Android build artifacts
 build/
