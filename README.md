@@ -71,5 +71,3 @@ The project addresses household recycling friction caused by lack of sorting kno
 - **IoT Communication Protocols:** Integrated low-power Bluetooth serial transmission (`HC-05`) between mobile application logic and microcontrollers.
 - **Full-Stack Hardware Integration:** Built an end-to-end pipeline connecting physical hardware actuators with a remote relational database and mobile UI.
 - **User-Centric Systems Design:** Applied gamification and collaborative data entry models to solve real-world user adoption barriers in waste recycling.
-
-- 
