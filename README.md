@@ -73,3 +73,69 @@ The project addresses household recycling friction caused by lack of sorting kno
 - **IoT Communication Protocols:** Integrated low-power Bluetooth serial transmission (`HC-05`) between mobile application logic and microcontrollers.
 - **Full-Stack Hardware Integration:** Built an end-to-end pipeline connecting physical hardware actuators with a remote relational database and mobile UI.
 - **User-Centric Systems Design:** Applied gamification and collaborative data entry models to solve real-world user adoption barriers in waste recycling.
+
+---
+
+## 🚀 Local Deployment Guide (*Quick Start*)
+
+### Prerequisites
+
+* **Node.js** (v18.x or higher) and **npm**
+* **MariaDB** / **MySQL Server**
+* **Flutter SDK** (v3.x with Dart 3 support)
+* **Git**
+
+---
+
+### 1. Database (MariaDB)
+
+Open a terminal and create the database and user with their respective permissions:
+
+```bash
+sudo mysql -e "CREATE DATABASE IF NOT EXISTS ecobross;"
+sudo mysql -e "CREATE USER IF NOT EXISTS 'ecobross'@'localhost' IDENTIFIED BY 'rootpass';"
+sudo mysql -e "GRANT ALL PRIVILEGES ON ecobross.* TO 'ecobross'@'localhost';"
+sudo mysql -e "FLUSH PRIVILEGES;"
+```
+
+### 2. Backend (Node.js & Express)
+
+1.Navigate to the backend directory:
+
+```bash
+cd backend
+```
+2.Install the project dependencies:
+
+```bash
+npm install
+```
+3.Start the development server:
+
+```bash
+node app.js
+```
+4.(Optional) In another terminal tab, test the API:
+
+```bash
+curl http://localhost:3030/
+```
+
+
+### 3. Mobile App (Flutter)
+1.Go to the root directory of the Flutter project:
+```bash
+cd ..
+```
+2.Download and install the Dart/Flutter dependencies:
+```bash
+flutter pub get
+```
+3.Run static code analysis to confirm there are no syntax errors:
+```bash
+flutter analyze
+```
+4.Run the application on your connected emulator or device:
+```bash
+flutter run
+```
