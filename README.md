@@ -41,8 +41,6 @@ The project addresses household recycling friction caused by lack of sorting kno
 
 ## 📂 Repository Structure
 
-## 📂 Repository Structure
-
 ```text
 .
 ├── docs/                             # Documentación del Trabajo de Fin de Grado (UPF)
@@ -65,7 +63,7 @@ The project addresses household recycling friction caused by lack of sorting kno
 │   ├── pubspec.yaml                  # Configuración de dependencias y assets de Flutter
 │   └── pubspec.lock
 └── README.md
-
+```
 ---
 
 ## 🧠 Engineering Key Takeaways
