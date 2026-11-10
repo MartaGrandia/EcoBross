@@ -1,0 +1,17 @@
+# Archivos temporales y logs de JVM
+*.log
+hs_err_pid*
+replay_pid*
+
+# Node.js
+backend/node_modules/
+
+# Flutter / Android build artifacts
+build/
+.gradle/
+**/build/
+**/generated/
+
+# Configuración local de SDK / entorno
+local.properties
+.DS_Store
